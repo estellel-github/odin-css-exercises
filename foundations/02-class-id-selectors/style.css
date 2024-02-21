@@ -1,19 +1,23 @@
+/* Correction: Add quotes around "DejaVu Sans" since it contains a space. */
 .oddnum {
   background-color: rgb(250, 175, 175);
-  font-family:Verdana, DejaVu Sans, sans-serif;
+  font-family:Verdana, "DejaVu Sans", sans-serif;
 }
+
+/* OK */
 
 #num2 {
   color: rgb(0, 0, 255);
   font-size: 36px;
 }
 
-.num3 {
+/* Correction: Add class to adjust font size to 24px (help reduce duplicate code) */
+.adjust-font-size {
   font-size: 24px;
 }
 
+/* Correction: Remove font size adjustment since specific class was created above */
 #num4 {
- background-color: rgb(150, 250, 125);
- font-size: 24px;
- font-weight: bold;
-}
+  background-color: rgb(150, 250, 125);
+  font-weight: bold;
+ }
