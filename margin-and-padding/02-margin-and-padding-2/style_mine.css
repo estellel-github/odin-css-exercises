@@ -1,44 +1,39 @@
-/* no change, ok */
 body {
   background: #eee;
   font-family: sans-serif;
 }
 
-/* remove padding and unnecessary font styling */
 .card {
   width: 400px;
   background: #fff;
   margin: 16px auto;
   padding: 8px;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-/* add missed font size, fix margins  */
 .title {
   background: #e3f4ff;
-  margin: 0px 0px 8px 0px;
-  font-size: 16px;
+  margin: 0px;
   padding: 8px;
 }
 
-/* fix margin, remove redundant padding values */
 .content {
   background: #e3f4ff;
-  margin-bottom: 8px;
-  padding: 16px 8px;
+  margin: 8px 0px 8px 0px;
+  padding: 16px 8px 16px 8px;
 }
 
-/* ok */
 .button-container {
   background: #e3f4ff;
   padding: 8px;
   text-align: center;
 }
 
-/* remove redundant padding values */
 button {
   background: white;
   border: 1px solid #eee;
   display: block;
-  padding: 8px 24px;
+  padding: 8px 24px 8px 24px;
   margin: 0px auto;
 }
